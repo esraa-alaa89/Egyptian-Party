@@ -1,0 +1,158 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 1.5;
+}
+:root{
+    --main-color: rgba(214, 46, 51, 0.6);
+    --main-site-color: #ccc;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* sidebar */
+/* .sidebar{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 100%;
+} */
+.sidebar-menu{
+    background-color: #1e202b;
+}
+.sidebar-close-icon{
+    position: relative;
+}
+.sidebar-close-icon i{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+.sidebar ul li {   
+    padding-bottom: 30px;
+}
+.sidebar ul li a{
+    transition: all 0.5s;
+}
+.sidebar ul li a:hover{
+    color: var(--main-color) !important;
+}
+.sidebar span{
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Home */
+.home{
+    background: linear-gradient( rgba(214, 46, 51 , 0.6), rgba(214, 46, 51 , 0.6) ), url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.slidedown h3{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px 0;
+    margin: 0;
+    cursor: pointer;
+}
+.slidedown div{
+    background-color: var(--main-site-color);
+    padding: 10px;
+}
+.slidedown div:not(.firstDiv){
+    display: none;
+}
+
+.count{
+    background: linear-gradient( rgba(214, 46, 51 , 0.6), rgba(214, 46, 51 , 0.6) ), url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.count-data{
+    border: 1px solid #fff;
+    padding: 40px 0;
+    margin: 40px 0;
+    font-size: 33px;
+}
+
+
+/* .contact{
+    color: var(--main-site-color);
+} */
+.contact h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact h3{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+    text-align: center;
+}
+.contact .contact-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+    margin-bottom: 35px;
+}
+.contact .contact-info i{
+    color: #777;
+}
+.contact-icon-list i{
+    color: #777;
+    border: 1px solid #999;
+    padding: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.contact-icon-list i:hover{
+    background-color: #dc3545;
+    color: #fff;
+}
+.contact .chars{
+    font-size: 20px;
+    color: #dc3545;
+}
+.contact-btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #dc3545;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.contact-btn:hover{
+    color: #fff;
+}
+
+
+
+
+
+::selection{
+    background-color: var(--main-color);
+    color: #F2F1EB !important;
+    box-shadow: none;
+}
